@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+nav a{
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link-active {
+  color:#3cd1ff;
+}
+
+@media (prefers-color-scheme: light) {
+  nav a {
+    color: #000;
+  }
+}
+
